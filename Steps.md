@@ -20,3 +20,26 @@ And Gazebo wont install unless I install the player, which is a community-create
 ```
 player-devel is needed by gazebo-7.4.0-2.el7.x86_64
 ```
+As for gazebo-devel, I have these:
+```
+error: Failed dependencies:
+	gazebo(x86-64) = 7.4.0-2.fc25 is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	gazebo-libs(x86-64) = 7.4.0-2.fc25 is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	gazebo-ode-devel(x86-64) = 7.4.0-2.fc25 is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_client.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_common.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_gimpact.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_gui.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_math.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_msgs.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_ode.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_opcode.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_opende_ou.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_physics.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_rendering.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_sensors.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_transport.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+	libgazebo_util.so.7()(64bit) is needed by gazebo-devel-7.4.0-2.fc25.x86_64
+```
+
